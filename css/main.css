@@ -34,8 +34,8 @@ html {
 .col-55-nav{
     width: 55%;
 }
-.col-10-nav{
-    width: 10%;
+.col-5-nav{
+    width: 5%;
     background-color: #10151A;
     display: flex;
     justify-content: center;
@@ -54,12 +54,11 @@ html {
 
 }
 .burger-munu-button{
-    background-color: #10151A;
+    background-color: #171d24;
     outline: 0;
     color: #fff;
     border: 0;
-    border-radius: 0px;
-    font-size: 2em;
+    border-radius: 5px;
     font-size: 20px;
     transition: 0.15s ease-in-out;
     cursor: pointer;
@@ -187,8 +186,8 @@ body{
 .container-home-page{
     height: auto;
     width: auto;
-    background-color: red;
     display: flex;
+    padding-left: 5%;
 }
 .leeg-stuk-text{
     width: 40px;
@@ -224,10 +223,6 @@ body{
 }
 .home-mijn-foto{
     width: 50%;
-}
-.my-socials{
-    font-size: 30px;
-    color: #fff;
 }
 strong{
     color: #FF720B;
@@ -289,6 +284,10 @@ strong{
     width: auto;
     background-color: #10151A;
     display: flex;
+    padding-left: 5%;
+  }
+  .socials-img{
+    width: 400%;
   }
 .leeg-alinia{
     height: 25px;
@@ -302,7 +301,7 @@ strong{
 .container-past-projects{
     width: auto;
     height: auto;
-    padding-left: 40px;
+    padding-left: 5%;
     display: flex;
     flex-direction: column;
 }
@@ -314,13 +313,15 @@ strong{
         height: 150px;
         padding-left: 40px;
         font-size: 22px; 
+        padding-left: 5%;
 }
 .telfoon-text{
     text-decoration: underline;
   color: #f06445;
 }
-.jop-meulmeester{
-    font-size: 50px;
+.gegevens{
+    padding-left: 10px;
+    padding-top: 20px;
 }
 p{
     color: #fff;
